@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="academic.css">
+    <title></title>
+  </head>
+  <body>
+<br>   <br> <div class="top">
+    <a href="index.html">Student Info</a>
+    <a  class="active" href="academic.html">Academic Details</a>
+    <a href="account.html">Account Details</a>
+    </div>
+  <center>
+    <form class="" action="index.html" method="post">
+      <div class="column">
+        <center>
+          <img src="../assets/degree.gif" />
+          </center>
+        <h3>Academic Information</h3>
+        <div><label for="courses">Courses &emsp; &emsp;&emsp;  &emsp; &emsp; &emsp; &emsp; <select name="courses" id="courses">
+          <option value="B. Tech">B. TECH</option>
+          <option value="B. Arch">B. ARCH</option>
+          <option value="M. Tech">M. TECH</option>
+          <option value="PHD">PHD</option></select></label><br /><br /></div>
+      <div> <label for="branch">Branch &emsp; &emsp;&emsp;  &emsp; &emsp; &emsp; &emsp; <select name="branch" id="branch">
+        <option></option>
+        <option value="CSE">Computer Science</option>
+        <option value="EE">Eleectrical</option>
+        <option value="ECE">Electronics </option>
+        <option value="ME">Mechanical</option>
+        <option value="CE">Civil</option>
+        <option value="other">Other</option></select></label><br /><br /></div>
+        <div>
+          <label for="semester">Semester &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+            <input min="1" max="8" type="number"/> (for which allotment will be done)</label><br /><br />
+        </div>       
+          <div>
+            <label for="air">All India Rank   &emsp; &emsp; &emsp; &emsp; <input type="text"/></label><br /><br />
+          </div>
+          <div><label for="categoryrank">Category Rank &emsp; &emsp; &emsp14; &emsp;
+            <input type="text" /></label><br /><br /></div>
+          <div> <label>CGPA  &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;
+            <input type="number" min="0" max="10" /></label><br /><br /></div>
+         <div><label>Backlog &emsp; &emsp;  &emsp;  &emsp;  &emsp; &emsp;<input type="radio" id="isback" name="back" value="isback">
+          <label for="isback">yes</label>&emsp;
+          <input type="radio" id="!isback" name="back" value="!isback">
+          <label for="!isback">no</label></label><br /><br /></div>
+          <div><label>Hostel Accomodation&emsp; &emsp; <input type="radio" id="ishostel" name="hostel" value="ishostel">
+            <label for="ishostel">yes</label>&emsp;
+            <input type="radio" id="!ishostel" name="hostel" value="!ishostel">
+            <label for="!ishostel">no</label></label><br /><br /></div>          
+          <div><label>Number of Hostel &emsp;&emsp;  &emsp;&emsp;<input  type="text"/></label><br /><br /></div>
+          <div>          <label for="room">Room Number  &emsp; &emsp;&emsp;&emsp; &emsp; <input type="text" name="" value=""></label><br /><br /><br />
+          </div>
+          <button type="button" class="button" value="Procced for Payment" onclick="window.location.href='account.html';">Procced for Payment</button>
+        </div>
+
+    </form>
+
+    </center>
+  </body>
+</html>

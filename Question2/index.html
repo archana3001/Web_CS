@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="index.css">
+    <title></title>
+  </head>
+  <body>
+    <br />
+    <div class="top">
+  <a class="active" href="index.html">Student Info</a>
+  <a href="academic.html">Academic Details</a>
+  <a href="account.html">Account Details</a>
+</div>
+<h1>Registration Form<br /></h1>
+  <form class="Studentinfo">
+    <center>
+      <div class="row"><br /><br />
+        <br /><br />
+        <div class="column">
+          <center>
+            <img  style="border-radius: 100%; width: 20% "  src="../assets/student.jpg"/>
+          </center>
+          <h3 style="font-size: 32px;">Basic Details</h3>
+          <div>
+            <label>Form Number: &emsp; &emsp;  &emsp;&emsp;&emsp;<input type="text" /> </label><br /><br />
+          </div>
+          <div>
+            <label>Name:  &emsp; &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp;<input  type="text"/></label><br /><br />
+          </div>
+          <div>
+            <label>Roll Number:  &emsp; &emsp;  &emsp; &emsp;&emsp;<input type="text"/> </label><br /><br />
+          </div>
+          <div>
+            <label>Gender: &emsp; &emsp;  &emsp; &emsp;  &emsp;  &emsp; <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>&emsp;
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>&emsp;
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label></label><br /><br />
+          </div>
+           <div>
+             <label>DOB:  &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp;  &emsp;<input type="date" /> </label><br /><br />
+           </div>
+          <div>
+            <label>PWD: &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp;<input type="radio" id="ispwd" name="pwd" value="ispwd">
+            <label for="ispwd">yes</label>&emsp;
+            <input type="radio" id="ispwd" name="pwd" value="ispwd">
+            <label for="not pwd">no</label></label><br /><br />
+          </div>
+          <div>
+            <label for="category">Category: &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp; <select name="category" id="category">
+              <option value="SC/ST">SC/ST</option>
+              <option value="General">General</option>
+              <option value="OBC">OBC</option>
+              <option value="Other">Other</option></select></label><br /><br />
+              <label for="address">Address:<br /><textarea></textarea></label><br />
+          </div>
+
+            <h2>PLEASE INPUT THE CORRECT PIN CODE</h2>
+            <br/>
+            <div>
+              <label>PIN CODE &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp; <input type="text" /></label><br /><br />
+            </div>
+            <div>
+              <label>PHONE OF  STUDENT &emsp; &emsp; <input type="phone"/></label><br /><br />
+            </div>
+            <div>
+            <label>PHONE OF GUARDIAN  &emsp; &emsp;<input type="phone"/></label><br /><br />
+            </div>
+              </div>
+
+              <div class="column2">
+                <center>
+                  <img src="../assets/degree.gif" />
+                  </center>
+                <h3>Academic Information</h3>
+                <div>
+                  <label for="courses">Courses &emsp; &emsp;&emsp;  &emsp; &emsp; &emsp; &emsp; <select name="courses" id="courses">
+                    <option value="B. Tech">B. TECH</option>
+                    <option value="B. Arch">B. ARCH</option>
+                    <option value="M. Tech">M. TECH</option>
+                    <option value="PHD">PHD</option></select></label><br /><br />
+                </div>
+               <div>
+                 <label for="branch">Branch &emsp; &emsp;&emsp;  &emsp; &emsp; &emsp; &emsp; <select name="branch" id="branch">
+                   <option></option>
+                   <option value="CSE">Computer Science</option>
+                   <option value="EE">Eleectrical</option>
+                   <option value="ECE">Electronics </option>
+                   <option value="ME">Mechanical</option>
+                   <option value="CE">Civil</option>
+                   <option value="other">Other</option></select></label><br /><br />
+               </div>
+               <div>
+                 <label for="semester">Semester &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                   <input min="1" max="8" type="number"/><br /> (for which allotment will be done)</label><br /><br />
+               </div>
+               <div>
+                   <label for="air">All India Rank   &emsp; &emsp; &emsp; &emsp; <input type="text"/></label><br /><br />
+               </div>
+                <div>
+                  <label for="categoryrank">Category Rank &emsp; &emsp; &emsp; &emsp;
+                    <input type="text" /></label><br /><br />
+                </div>
+                 <div>
+                   <label>CGPA  &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;
+                     <input type="number" min="0" max="10" /></label><br /><br />
+                 </div>
+                <div>
+                  <label>Backlog &emsp; &emsp;  &emsp;  &emsp;  &emsp; &emsp;<input type="radio" id="isback" name="back" value="isback">
+                  <label for="isback">yes</label>&emsp;
+                  <input type="radio" id="!isback" name="back" value="!isback">
+                  <label for="!isback">no</label></label><br /><br />
+                </div>
+                <div>
+                  <label>Hostel Accomodation&emsp; &emsp; <input type="radio" id="ishostel" name="hostel" value="ishostel">
+                  <label for="ishostel">yes</label>&emsp;
+                  <input type="radio" id="!ishostel" name="hostel" value="!ishostel">
+                  <label for="!ishostel">no</label></label><br /><br />
+                </div>
+                <div>
+                    <label>Number of Hostel &emsp;&emsp;  &emsp;&emsp;<input  type="text"/></label><br /><br />
+                </div>
+                <div>
+                    <label for="room">Room Number  &emsp; &emsp;&emsp;&emsp; &emsp; <input type="text" name="" value=""></label><br /><br /><br />
+                </div>
+                </div>
+
+                <div class="column3"><br />
+                 <h3>Account Details </h3><br />
+                 <div>
+                     <label>Account Holder Name <input type="text" /> (as per Bank Passbook)</label><br /><br /><br />
+                 </div>
+              <div>
+                  <label>Account Number &emsp;&emsp; <input  type="text"/></label><br /><br /><br />
+              </div>
+              <div>
+                <label>IFSC CODE &emsp;  &emsp; &emsp; <input type="text" /></label><br /><br /><br />
+              </div>
+                <div>
+                  <label>Bank Name &emsp;  &emsp;&emsp;&emsp;<input  type="text"/></label><br /><br /><br />
+                </div>
+              <div>
+                <label>Bank Branch &emsp;  &emsp; &emsp; <input type="text" /></label><br /><br /><br />
+              </div>
+                <button class="button" type="button" name="button">Submit</button><br />
+              </div><br /><br /><br /><br />
+      </div>
+    </center>
+    </form><br>
+    <br>
+<div class="bottom"><br />
+  <div class="content" style="font-family: cursive; font-size: medium;"><br />
+    <center>
+      <!--------here is footer---->
+      &copy 1906011<br>
+    </center>
+<br>
+<br>
+  </div>
+</div>
+  </body>
+</html>
