@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation-name: Images;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: translate(20px, -20px);
+}
+img{
+  width: 450px;
+  height: 350px;
+  margin: 5px;
+  transition: all 1s;
+  box-shadow: 5px 5px 5px #ffccee;
+
+
+}
+img:hover{
+  transform: rotate(20deg);
+  transform: scale(1.5);
+}
+h1{
+  border-bottom: 3px solid black;
+  width: 500px;
+  text-align: center;
+  border-right: 3px solid #ffcfe6;
+}
+h1:hover{
+  transform: scale(2);
+}
