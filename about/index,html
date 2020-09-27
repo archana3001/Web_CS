@@ -1,0 +1,193 @@
+<!DOCTYNPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="about.css">
+  </head>
+  <body>
+    <div class="heading">
+      <header>  About me</header>
+      </div>
+<br />
+<center>
+
+    <div class="content">
+      <div id="BASIC">
+  <h3>BASIC DETAILS</h3>
+        <table>
+          <tr>
+            <th>
+              NAME
+              </th>
+              <td>
+                ARCHANA KUMARI
+                </td>
+            </tr>
+           <tr>
+             <th>
+               ROLL NO
+               </th>     <td>
+                   1906011
+                   </td>
+             </tr>
+            <tr>
+              <th>
+                BRANCH
+                </th>
+                <td>
+                  CSE
+                  </td>
+              </tr>
+          <tr>
+            <th>
+              SEMESTER
+              </th>    <td>
+                    3<sup>rd</sup>
+                    </td>
+            </tr>
+                <tr>
+                  <th>
+                    BATCH
+                    </th>  <td>
+                      2019-2023
+                      </td>
+                  </tr>
+        </table>
+        </div>
+        <div id="EDUCATIONAL">
+          <br />
+          <h3>EDUCATIONAL QUALIFICATION</h3><br/>
+          <table>
+            <tr>
+              <td>
+                10th
+                </td>
+                <td>
+                  B.D.PUBLIC SCHOOL
+                  </td>
+                  <td>
+                    10 cgpa
+                    </td>
+              </tr>
+              <tr>
+                <td>
+                  12th
+                  </td>
+                  <td>
+                    HOLY MISSION SECONDARY SCHOOL
+                    </td>
+                    <td>
+                      84.6 %
+                      </td>
+                </tr>
+                <tr>
+                  <TD>
+                        B.TECH (CSE)
+                    </TD>
+             <td>
+               NATIONAL INSTITUTE OF TECHNOLOGY PATNA
+               </td>
+               <TD>
+                 ---------------
+                 </TD>
+                  </tr>
+            </table>
+          </div>
+          <div id="PROJECTS">
+            <br />
+            <h3>PROJECTS</h3>
+            </div><br />
+            <table>
+              <tr>
+              <th>
+            Name
+                </th>
+                <td>
+                Link
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                  About Git
+                    </th>
+                  <td>
+                    <a href="https://archana3001.github.io/CS_lAB4/aboutgithub/index.html">click to see</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Portfolio
+                      </th>
+                  <td>
+                    <a href="https://archanaknitp.web.app">click to see</a>
+                    </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Portfolio-Box
+                        </th>
+                    <td>
+                      <a href="#">ongoing</a>
+                      </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          Scribe
+                          </th>
+                          <td>
+                            <a href="https://scribe1-5e765.web.app/">click to see</a>
+                            </td>
+                        </tr>
+              </table><br />
+              <div id="CONTACT">
+                <br />
+                <h3>CONTACT ME</h3><br />
+                <table>
+                  <tr>
+                    <th>
+                  github
+                      </th>
+                      <td>
+                        <a href="https://github.com/archana3001">click</a>
+                        </td>
+                    </tr>
+
+                  <tr>
+                    <th>
+                      Linkedin
+                      </th>
+                      <td>
+                        <a href="https://www.linkedin.com/in/archana-kumari-284091193/">click to connect</a>
+                        </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Facebook
+                        </th>
+                        <td>
+                          <a href="https://www.facebook.com/people/Archana-Kumari/100041094672331">connect</a>
+                          </td>
+                      </tr>
+                  </table>
+                </div>
+      </div>
+  </center>
+  <br>
+  <br>
+<footer>
+  <div class="row">
+    <div class="column">
+      <a href="#BASIC">
+      GO TO BASIC DETAILS</a>
+      </div>
+      <div class="column">
+        <a href="#EDUCATIONAL">  GO TO EDUCATIONAL DETAILS</a>
+        </div>
+        <div class="column">
+          <a href="#CONTACT">    GO TO CONTACT DETAILS</a>
+          </div>
+    </div>
+</footer>
+  </body>
+</html>
