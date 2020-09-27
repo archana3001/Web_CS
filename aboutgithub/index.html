@@ -1,1 +1,76 @@
 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<link rel="stylesheet" href="./index.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<center>
+  <div class="heading">
+    About Version Control
+    </div>
+  </center>
+<div class =" about_v_c">
+ Version control systems are a category of software tools that help a software team manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
+<br />
+<br />
+<h2>Benefits of Version Control</h2>
+<ul>
+  <li>
+    A complete long-term change history of every file.
+    </li>
+    <li>
+      Branching and merging. Having team members work concurrently is a no-brainer, but even individuals working on their own can benefit from the ability to work on independent streams of changes.
+      </li>
+      <li>
+        Provide Traceability. Being able to trace each change made to the software and connect it to project management and bug tracking software such as Jira, and being able to annotate each change with a message describing the purpose and intent of the change can help not only with root cause analysis and other forensics.
+        </li>
+  </ul>
+  <div class="back1">
+    <div class="cmd">
+      <h1>Git Cheat sheet</h1>
+      <p>
+        <h3>Initialize a repo</h3>
+        <br />Create an empty git repo or reinitialize an existing one
+        <br /><br />git init
+        </p>
+        <p>
+          <h3>Setup remote</h3><br />
+          <br />
+          First, let's see a list of the repositories (remotes) whose branches you track:
+          <br /><br />git remote -v<br />
+          </p>
+          <p>
+            <h3>Merging</h3><br />
+            merge-in changes from origin's feature_x branch:
+            <br /><br />git fetch origin<br />
+git merge origin/feature_x
+<br>
+  </p>
+    <p>
+    <h3>Clone</h3><br/>
+  Copy repository from github to local machine.<br/><br/>
+          git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY<br>
+    </p>
+  <p>
+  <h3>Commit</h3><br/>
+  Add any change to existing project<br/><br/>
+  git commit
+  <br/>git commit -a<br/>
+  git commit -m "commit message"<br/>
+  
+  </p><br/>
+<p>
+<h3>Push</h3></br>
+Used to upload local repository content to remote repository.<br/><br/>
+
+git push origin master
+</p>
+      </div>
+      </div>
+    </div>
+
+  </body>
+</html>
