@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Navbar with Search Form</title>
+  <!--<link rel="stylesheet" href="index.css">-->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+ body{
+  background: url(./bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  min-height: 100%;
+  min-width: 1024px;
+}
+@@media screen and(max-width: 1024px) {
+  body{
+    left: 50%;
+    margin-left: -512px;
+  }
+}
+.bg1{
+  background: transparent;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img{
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  transition: all 1s;
+  box-shadow: 5px 5px 5px #660000;
+}
+img:hover{
+
+transform: scale(1.5);
+  animation: rotation 2s 1 linear;
+}
+.text-uppercase{
+  padding: 5px;
+}
+
+</style>
+</head>
+<body>
+<div class="text-uppercase">
+  <div class="bs-example">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <a href="#" class="navbar-brand">AK</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav">
+                  <a href="#" class="nav-item nav-link active">Home</a>
+                  <a href="#" class="nav-item nav-link"></a>
+                  <a href="#" class="nav-item nav-link"></a>
+              </div>
+
+          </div>
+      </nav>
+    </div>
+  </div><br /><br /><br />
+<div class="text-uppercase">
+  Hello !<br />Hey there, I am Archana Kumari. I am currently pursuing my bachelor's degree in Computer Science and Engineering from NIT Patna.
+
+I am fascinated with Computers and I am on my mission to learn and explore the realms of Computer
+ Science and contribute my part to make the machines become self dependent and free from the need of human assistance.
+  <br />
+</div>
+<br /><br /><br />
+<div class="container">
+
+ <img src="goals.jpg" />
+
+ <img src="ach.gif"/>
+ <img src="strength.jpg"/>
+ </div>
+
+
+</body>
+</html>
